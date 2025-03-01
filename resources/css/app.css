@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=text]{
+    width: 400px;
+    height: 40px;
+}
+
+table{
+    text-align: center;
+    color: #fff;
+}
+
+.form_container{
+    display: flex;
+}
+
+.form_container .inside{
+    justify-content: center;
+    width: 100%;
+}
+
+.pending{
+    padding: 7px 10px;
+    color: #fff;
+    background-color: #c73030;
+    box-shadow: unset 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100px;
+}
+.processing{
+    padding: 7px 10px;
+    color: #fff;
+    background-color: #44b222;
+    box-shadow: unset 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.completed{
+    padding: 7px 10px;
+    color: #fff;
+    background-color: #112e8d;
+    box-shadow: unset 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
